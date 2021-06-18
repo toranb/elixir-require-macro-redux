@@ -1,8 +1,8 @@
 defmodule Demo.Two do
-  alias require Demo.Util
+  use Demo.Concat
 
   def api() do
-    Util.concat do
+    concat do
       abc()
 
       xyz()
